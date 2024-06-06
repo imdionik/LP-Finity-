@@ -1,82 +1,110 @@
-@import "../config/functions";
-@import "../config/mixins";
 
-.header {
-	z-index: 50;
-	inline-size: 100%;
-	transition: background-color var(--bs-transition);
 
-	.header-is-sticky & {
-		// ..стили для липкого хедера
-		position: fixed;
-		background-color: #007aff;
-	}
+.header{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+padding-top: 32px;
+   &__name{
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 47px;
+color: #FFFFFF;
+margin-bottom: 10px;
+   }
+   &__list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    &-item{
 
-	// .header__container
-	&__container {
-		display: flex;
-		block-size: rem($header-height);
-		align-items: center;
+      margin-right: 40px;
 
-		.header-is-sticky & {
-			block-size: rem($header-height - 50);
-		}
-	}
+    }
+    &-link{
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+text-decoration: none;
+color: #FFFFFF;
+
+
+    }
+   
+   }
+   &__nav{
+    margin-right: 40px;
+    padding: 11px 0px;
+    border-right: 1px solid #4f4f4f;
+   }
+   &__language{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin-right: 28px;
+    
+        }
+
+        &__buttons{
+          margin-left: 41px;
+          
+        }
+
+        &__btn{
+          padding: 18px 35px;
+          background: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+margin-right: 15px;
+color: #FFFFFF;
+
+border: 2px solid #FFFFFF;
+border-radius: 50px;
+        }
+        &__btn-styles{
+          padding: 18px 45px;
+          margin-right: 21px;
+background: linear-gradient(103.59deg, #54D6FF 13.23%, #C275FF 56.28%, #D271FF 68.02%, #F36AFF 91.95%);
+border: none;
+        }
+        
 }
+.header__container{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+ 
+ 
 
-// Burger
+}
+.header__left{
+  display: flex;
+  align-items: center;
 
-/*
-.icon-menu {
-  display: none;
-
-  @include media-mx(768) {
-    display: block;
-    position: relative;
-    width: rem(30);
-    height: rem(18);
-    cursor: pointer;
-    z-index: 5;
-
-    span,
-    &::before,
-    &::after {
-      content: "";
-      transition: all 300ms ease 0ms;
-      right: 0;
-      position: absolute;
-      width: 100%;
-      height: rem(2);
-      background-color: #000;
-    }
-
-    &::before {
-      top: 0;
-    }
-
-    &::after {
-      bottom: 0;
-    }
-
-    span {
-      top: calc(50% - rem(1));
-    }
-
-    .menu-open & {
-      span {
-        width: 0;
-      }
-
-      &::before {
-        top: calc(50% - rem(1));
-        transform: rotate(-45deg);
-      }
-
-      &::after {
-        bottom: calc(50% - rem(1));
-        transform: rotate(45deg);
-      }
-    }
+  img{
+    width: 68px;
+    margin-right: 15px;
   }
 }
-*/
+
+.header__right{
+  display: flex;
+  align-items: center;
+  margin-top: -21px;
+  img{
+    width: 68px;
+    margin-right: 15px;
+  }
+}
