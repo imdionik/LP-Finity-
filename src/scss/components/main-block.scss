@@ -1,0 +1,58 @@
+.main{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 198px;
+    margin-top: 104px;
+    &__wrapper{
+        display: flex;
+       
+        
+    }
+    &__title{
+       margin: 0;
+       padding: 0;
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 600;
+font-size: 147px;
+line-height: 191px;
+background: linear-gradient(103.59deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+    }
+
+    &__subtitle{
+        margin: 0;
+        padding: 0;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 59px;
+max-width: 780px;
+color: #FFFFFF;
+margin-top: 20px;
+    }
+
+    &__text{
+margin: 0;
+padding: 0;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+line-height: 45px;
+color: #959595;
+max-width: 810px;
+margin-top: 24px;
+margin-bottom: 44px;
+    }
+    &__coin-image{
+        margin-left: 39px;
+    }
+
+}

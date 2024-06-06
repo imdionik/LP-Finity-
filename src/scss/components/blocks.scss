@@ -1,0 +1,29 @@
+.blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 84px;
+    &__items{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    &__title{
+
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 78px;
+text-align: center;
+margin: 0;
+padding: 0;
+color: #FFFFFF;
+padding-right: 53px;
+    box-sizing: border-box;
+span{
+    color: #EF6AFE;
+}
+    }
+}
