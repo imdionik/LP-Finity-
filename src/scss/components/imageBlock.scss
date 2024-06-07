@@ -1,0 +1,32 @@
+.imageBlock{
+    display: flex;
+    width: 100%;
+    margin-top: 136px;
+    justify-content: center;
+    flex-direction: column;
+    &__title{
+        h1{
+
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 78px;
+/* identical to box height */
+text-align: center;
+
+/* main/white */
+color: #FFFFFF;
+
+
+        }
+    }
+
+    &-img{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 41px;
+    }
+}
+

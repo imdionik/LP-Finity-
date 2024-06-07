@@ -1,22 +1,25 @@
 <div class="product">
-    <div class="product__wrapper">
+    <div class="product__wrapper" style="flex-direction: @@reverse">
         <div class="product__left">
-            <img src="../images/grant.png" alt="">
+            <img src="@@imgUrl" alt="">
         </div>
         <div class="product__right">
-            <h1 class="product__title">Get <span class="grant">grant</span> from <span>Finity Foundation</span></h1>
-            <p class="product__subtitle">We engage Web 3.0 developers to improve the Finnity Touch ecosystem. Finity Touch is ready to support your unique ideas, help in the development and <span>marketing strategy of your </span>product.</p>
-            <img src="../images/cornersvg.svg" alt="" class="corner">
-            <img src="../images/cornersvg.svg" alt="" class="corner__top">
+            <div class="product__text">
+                <h1 class="product__title">@@title</h1>
+                <p class="product__subtitle">@@subtitle</p>
+                <img src="../images/cornersvg.svg" alt="" class="corner">
+                <img src="../images/cornersvg.svg" alt="" class="corner__top">
+            </div>
+        
             <div class="product__button-block">
                 <button class="product__btn">Find out more</button>
                 <div class="lines"><div class="product__dashline"></div></div>
 
             </div>
 
-            <span class="name">product 01</span>
+            <span class="name" >product @@count</span>
         </div>
-        <div class="blur"></div>
+        <div class="blur" style="@@blur"></div>
     </div>
    
 </div>

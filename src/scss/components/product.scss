@@ -1,12 +1,21 @@
+.product1{
+    padding-left: 154px;
+    box-sizing: border-box;
+    padding-right: 195px;
+    overflow: hidden;
+    padding-top: 219px;
+}
+
+
 .product{
     position: relative;
-   
-    margin-top: 221px;
+  
+    
+  
     &__wrapper{
         display: flex;
         justify-content: center;
-        padding-left: 154px;
-        padding-right: 195px;
+      
     }
     &__title{
 font-family: 'Chakra Petch';
@@ -20,7 +29,17 @@ padding: 0;
 color: #FFFFFF;
 
 span{
-color: #83febb;
+    margin: 0;
+    padding: 0;
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 600;
+font-size: 85px;
+background:linear-gradient(148.71deg, #B2FF0F 10.47%, #76FFEF 88.29%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
 }
 
 }
@@ -32,9 +51,16 @@ color: #83febb;
         color: #a1fe4e;
         }
 
-
         &__left{
             margin-right: 18px;
+        }
+
+        &__text{
+            margin-right: 18px;
+            padding-bottom: 65px;
+            padding-top: 2px;
+            position: relative;
+            max-width: 689px;
         }
         &__subtitle{
 font-family: 'Montserrat';
@@ -64,8 +90,8 @@ width: 300px;
 height: 78px;
 border-radius: 60px 0px;
 background: none;
-margin-top: 93px;
-margin-left: -49px;
+margin-top: 27px;
+    margin-left: -48px;
 padding-left: 27px;
 
 font-family: 'Montserrat';
@@ -124,17 +150,17 @@ transform: rotate(90deg);
 position: absolute;
 right: -38px;
 
-bottom: 192px;
+bottom: 189px;
 }
 
-.blur{
-    position: absolute; width: 377px; height: 491px;     right: -200px; opacity: 0.7; background: linear-gradient(136.78deg, #B2FF0F 46.6%, #76FFEF 88.86%); filter: blur(90px); transform: rotate(30deg);
-}
+/* Ellipse 29 */
+
+
 
 .corner{
     position: absolute;
     left: -48px;
-    bottom: 252px;
+    bottom: -3px;
     transform: rotate(180deg);
 
 
@@ -142,8 +168,8 @@ bottom: 192px;
         top: 0;
         right: 0;
         position: absolute;
-        top: -4px;
-        right: 5px;
+        top: -2px;
+        right: -12px;
     }
 }
 
@@ -160,3 +186,136 @@ bottom: 192px;
     width: 100%;
     border-bottom: 1px dashed #fff;
 }
+
+
+.product2{
+    padding-left: 126px;
+    padding-top: 138px;
+
+    .product__subtitle{
+        margin-left: 8px;
+    margin-top: 26px;
+    }
+
+    .product__left{
+        margin-right: 22px;
+        margin-top: -33px;
+    }
+    .corner__top{
+        top: 2px;
+    right: 11px;
+    }
+    .corner{
+        left: -53px;
+    bottom: -16px;
+    }
+    .name{
+        right: -29px;
+        bottom: 164px;
+    }
+    .product__btn{
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+    .product__right{
+        margin-top: 55px;
+        margin-right: -12px;
+    }
+
+    .product__btn::before{
+        
+        background:linear-gradient(103.59deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+    }
+
+    .product__title{
+        span{ margin: 0;
+            padding: 0;
+        font-family: 'Chakra Petch';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 85px;
+        background: linear-gradient(145.54deg, #7673FF 10.4%, #42F4FF 92.38%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+           
+
+        }
+    }
+}
+
+.product3{
+    padding-top: 136px;
+    margin-left: -15px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    .product__left {
+        margin-right: 64px;
+    }
+
+    .product__subtitle{
+        font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.028em;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    max-width: 685px;
+    margin-left: -1px;
+    margin-top: 23px;
+    }
+
+    .corner__top{
+            top: 2px;
+            right: -4px;
+        
+    }
+    .corner{
+        position: absolute;
+        left: -44px;
+        bottom: -16px;
+    }
+
+    .product__btn{
+        margin-top: 41px;
+        margin-left: -45px;
+
+        &::before{
+    background:  linear-gradient(144.66deg, #FF6C56 6.96%, #FF9344 88.16%);
+
+
+        }
+    }
+
+    .name{
+        right: -35px;
+        bottom: 159px;
+    }
+
+    .product__title{
+        span{ margin: 0;
+            padding: 0;
+        font-family: 'Chakra Petch';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 85px;
+         background: linear-gradient(144.66deg, #FF6C56 6.96%, #FF9344 88.16%);
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+           
+
+        }
+    }
+    .product__right{
+        margin-top: 57px;
+    }
+}
+

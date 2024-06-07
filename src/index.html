@@ -10,8 +10,42 @@
       @@include('html/main-block.html')
 
       @@include('html/blocks.html')
-      @@include('html/product.html')
+      <div class="product1">
+        @@include('html/product.html',{
+          title:"Get <span class='grant'>grant</span> from <span>Finity Foundation</span>",
+          reverse:"row",
+          subtitle:'We engage Web 3.0 developers to improve the Finnity Touch ecosystem. Finity Touch is ready to support your unique ideas, help in the development and <span>marketing strategy of your </span>product.',
+          imgUrl:'../images/grant.png',
+          blur:'    position: absolute; width: 377px; height: 491px;     right: -200px; opacity: 0.7; background: linear-gradient(136.78deg, #B2FF0F 46.6%, #76FFEF 88.86%); filter: blur(90px); transform: rotate(30deg);',
+          count:'01'
+        })
+      </div>
+      <div class="product2">
+        @@include('html/product.html',{
+          title:"Play <span class='games'>games</span> of the <span>Future</span>",
+          reverse:"row-reverse",
+          subtitle:'We strive to create a broad and integrated ecosystem of gaming enthusiasts and passionate developers. We focus on games using blockchain technology. This allows players to earn money and own their items in the form of NFT.',
+          imgUrl:'../images/ps-games.png',
+          blur:'position: absolute;left: -250px;top: 19px;height:549px; width:391px; background: linear-gradient(103.59deg, #FC84FF 13.23%, #54D1FA 91.95%);filter: blur(90px);transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);',count:'02'
+        })
+      </div>
 
+      <div class="product3">
+        @@include('html/product.html',{
+          title:"Trade <span class='nft'>NFT</span> with a new <span> Marketplace</span>",
+          reverse:"row",
+          subtitle:'The Finite Market is designed to trade new types of digital goods. You can buy, sell and participate in NFT auctions just like in real life. All non-fungible tokens in Finity Market are unique and can be used on FT platforms.',
+          imgUrl:'../images/nft.png',
+          blur:'position: absolute;width: 391px;   height:549px; right: -201px;top: 62px;background: linear-gradient(144.66deg, #FF6C56 6.96%, #FF9344 88.16%);filter: blur(90px);transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);',
+          count:'03'
+        })
+      </div>
+    
+      @@include('html/persons.html')
+      @@include('html/slider.html')
+      @@include('html/questions.html')
+      @@include('html/imageBlock.html')
+      @@include('html/form.html')
    
       @@include('html/footer.html')
     </div>
