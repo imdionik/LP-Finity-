@@ -1,0 +1,71 @@
+.tokenomic{
+    position: relative;
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 181px;
+    }
+
+    &__title{
+margin: 0;
+margin-left: -2px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 69px;
+line-height: 84px;
+color: #fff;
+
+span{
+    background: linear-gradient(117.47deg, #86AFFE 7.39%, #A57AFF 23.36%, #FB84FF 38.85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+
+
+    }
+
+    &__subtitle{
+        margin-left: 7px;
+        margin-top: 22px;
+        letter-spacing: -0.1px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 155%;
+        text-align: center;
+        max-width: 1120px;
+        color: #FFFFFF;
+        span{
+            margin-right: 4px;
+        }
+
+    }
+
+    &__image{
+        margin-left: -2px;
+        margin-top: 39px;
+    }
+
+    .blur-token{
+        /* Vector */
+
+position: absolute;
+width: 567px;
+height: 722px;
+left: -303px;
+top: 12px;
+/* accent/5 */
+background: linear-gradient(145.54deg, #7673FF 10.4%, #42F4FF 92.38%);
+filter: blur(250px);
+
+    }
+}

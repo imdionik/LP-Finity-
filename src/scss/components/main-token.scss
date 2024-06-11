@@ -1,0 +1,116 @@
+.main__token{
+    position: relative;
+    padding-left: 205px;
+    margin-top: 124px;
+   
+    &-image{
+        position: absolute;
+        z-index: -1;    
+    left: -1px;
+    top: -139px;
+    max-width: 1920px;
+    width: 100%;
+    img{
+        width: 100%;
+    }
+    }
+
+   &-titleLeft{
+
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 600;
+font-size: 120px;
+line-height: 131px;
+background: linear-gradient(103.59deg, #FC84FF 13.23%, #54D1FA 91.95%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+margin: 0px;
+
+   }
+   &-text{
+    max-width: 521px;
+   }
+
+   &-titleRight{
+    /* Token */
+
+    margin: 0px;
+    margin-top: 4px;
+margin: 0px;
+display: flex;
+justify-content: flex-end;
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 600;
+font-size: 120px;
+line-height: 100px;
+/* identical to box height, or 83% */
+
+/* accent/1 */
+background: linear-gradient(103.59deg, #FC84FF 13.23%, #54D1FA 91.95%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+margin-right: 3px;
+    margin-top: 4px;
+
+   }
+
+   &-subtitle{
+    max-width: 551px;
+top: 481px;
+letter-spacing: -0.57px;
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 29px;
+margin-left: -4px;
+color: #FFFFFF;
+
+
+   }
+
+   &-btn{
+    text-align: center;
+    box-sizing: border-box;
+    width: 267px;
+    height: 67px;
+    border-radius: 60px 0px;
+    background: none;
+    margin-top: 14px;
+    margin-left: -10px;
+    padding-left: 9px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    position: relative;
+
+}
+
+&-btn::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 60px 0px;
+    padding: 3px; /* control the border thickness */
+    background:linear-gradient(103.59deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+    pointer-events: none;
+ 
+}
+
+
+
+}

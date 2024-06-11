@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('html/head.html', {
+    'title': 'Главная'
+  })
+  <body class="token">
+    <div class="wrapper">
+      @@include('html/header.html')
+      <div class="blur"></div>
+        @@include('html/main-token.html',{
+          'word1':"Finity",
+          "word2":'Token',
+          "imgUrl":'../images/mainToken-bg.png',
+          'subtitle':"Finity Token - is an asset that fuels the Finity Touch ecosystem and ensures the development of existing projects and the possibility of discovering new fragments of the ecosystem",
+          "btn-title":"Buy Token"
+        })
+        @@include('html/blocks-token.html')
+        @@include('html/tokenomic.html')
+        @@include('html/roadmap.html')
+        <div class="contact-form">
+             @@include('html/form.html')
+             <img src="./images/token-tokens.png" alt="">
+        </div>
+        @@include('html/token-adress.html')
+      @@include('html/footer.html')
+     
+    </div>
+
+  </body>
+</html>

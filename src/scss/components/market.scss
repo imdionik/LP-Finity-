@@ -1,0 +1,71 @@
+.market{
+ 
+    max-height: 100vh;
+    max-width: 1920px;
+    overflow: hidden;
+    .wrapper{
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .header{
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 0;
+        padding: 0;
+        padding-top: 32px;
+        /* opacity: 0.5; */
+        padding-bottom: 13px;
+    }
+}
+
+.title{
+    height: calc(100vh - 143px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 600;
+font-size: 150px;
+line-height: 195px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.12em;
+margin: 0;
+color: #FFFFFF;
+margin-top: -15px;
+    margin-left: 16px;
+
+
+}
+
+.blur1{
+    /* Ellipse 31 */
+z-index: -1;
+position: absolute;
+width: 628.81px;
+height: 768.76px;
+left: -350px;
+top: -380px;
+background: linear-gradient(144.66deg, #FF6C56 6.96%, #FF9344 88.16%);
+filter: blur(150px);
+transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);
+
+}
+
+.blur2{
+    /* Ellipse 30 */
+
+position: absolute;
+width: 628.81px;
+height: 768.76px;
+right: 0px;
+top: 369px;
+z-index: -1;
+/* accent/3 */
+background: linear-gradient(144.66deg, #FF6C56 6.96%, #FF9344 88.16%);
+filter: blur(150px);
+transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);
+
+}

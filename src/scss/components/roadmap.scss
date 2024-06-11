@@ -1,0 +1,198 @@
+.roadmap{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 156px;
+    margin-left: 10px;
+    position: relative;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        max-width: 1720px;
+        width: 100%;
+    }
+
+    &-title{
+
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 600;
+font-size: 61px;
+line-height: 79px;
+letter-spacing: 0.11em;
+
+color: #FFFFFF;
+
+
+
+    }
+
+    &__image{
+        margin-left: 100px;
+        margin-top: 133px;
+    }
+
+    &-subtitle{
+        max-width: 1109px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 155%;
+        text-align: center;
+        color: #FFFFFF;
+        margin-left: -13px;
+        margin-top: -8px;
+        letter-spacing: -0.052px;
+      
+
+
+    }
+
+    .blur-roadRight{
+/* Vector */
+
+position: absolute;
+width: 567px;
+height: 722px;
+right: -438px;
+    top: -100px;
+    z-index: -1;
+z-index: -1;
+background: linear-gradient(145.54deg, #7673FF 10.4%, #42F4FF 92.38%);
+filter: blur(250px);
+
+    }
+
+    .blur-roadLeft{
+        /* Vector */
+
+position: absolute;
+width: 594px;
+height: 1191px;
+left: -359px;
+top: 400px;
+
+/* accent/7 */
+background: linear-gradient(103.59deg, #86AFFE 13.23%, #A57AFF 53.2%, #FB84FF 91.95%);
+filter: blur(250px);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+z-index: -1;
+    }
+}
+
+.blur-roadRight2{
+    /* Vector */
+
+position: absolute;
+width: 567px;
+height: 722px;
+right: -400px;
+bottom: 200px;
+
+/* accent/7 */
+background: linear-gradient(103.59deg, #86AFFE 13.23%, #A57AFF 53.2%, #FB84FF 91.95%);
+filter: blur(250px);
+
+}
+
+.roadmap__item{
+    padding-bottom: 46px;
+    position: absolute;
+    background: url('../../images/roadmap-item-bg.png');
+    width: 648px;
+    padding-left: 75px;
+    box-sizing: border-box;
+    top: 322px;
+    right: 104px;
+   
+    &-text{
+        h1{
+margin: 0;
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 500;
+font-size: 37px;
+line-height: 48px;
+/* identical to box height */
+letter-spacing: 0.11em;
+padding-top: 36px;
+color: #FFFFFF;
+
+
+        }
+        p{
+
+margin: 0;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+margin-top: 8px;
+    margin-left: 5px;
+color: #FFFFFF;
+
+
+        }
+    }
+}
+.roadmap__item2{
+    background: url('../../images/roadmapbg2.png');
+    top: 677px;
+    left: 96px;
+    padding-left: 49px;
+
+    .roadmap__item-text:nth-child(2){
+      p{
+        margin-left: 6px;
+        letter-spacing: -1px;
+        margin-top: 6px;
+      }
+    }
+}
+
+.roadmap__item3{
+    position: absolute;
+    background: url(../../images/roadmap-item-bg.png);
+    width: 648px;
+    padding-left: 75px;
+    box-sizing: border-box;
+    top: 1003px;
+    right: 104px;
+}
+
+.roadmap__item4{
+    top: 1358px;
+    left: 97px;
+
+}
+.roadmap__item5{
+    position: absolute;
+    background: url(../../images/roadmap-bg2.png);
+    width: 648px;
+    padding-left: 75px;
+    box-sizing: border-box;
+    top: 1709px;
+    right: 104px;
+
+    .roadmap__item-text:nth-child(1){
+        letter-spacing: 0.15px;
+    }
+}
+.roadmap__item6{
+    top: 2217px;
+    left: 95px;
+    .roadmap__item-text:last-child{
+       
+        p{
+            letter-spacing: -1.05px;
+            margin-top: 7px;
+            margin-left: 6px;
+        }
+     
+    }
+}

@@ -1,0 +1,122 @@
+.fundTree{
+    position: relative;
+    margin-top: 377px;
+    position: relative;
+    padding-left: 266px;
+    .blur-fundTree{
+        /* Vector */
+
+position: absolute;
+width: 545.01px;
+height: 451px;
+left: -250px;
+top: -350px;
+z-index: -1;
+/* accent/4 */
+background: linear-gradient(148.71deg, #B2FF0F 10.47%, #76FFEF 88.29%);
+filter: blur(150px);
+transform: rotate(180deg);
+
+    }
+    &__block{
+       
+        position: absolute;
+        background: url(../../images/fund-tree.svg);
+        width: 240px;
+        height: 145px;
+        padding-top: 60px;
+        padding-left: 19px;
+        top: 185px;
+        left: 236px;
+        &-title{
+
+box-sizing: border-box;
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 33px;
+line-height: 43px;
+/* identical to box height */
+
+color: #FFFFFF;
+margin: 0;
+
+        }
+
+        &-subtitle{
+  
+max-width: 223px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+margin: 0;
+color: #FFFFFF;
+margin-top: 28px;
+
+        }
+    }
+
+    .review{
+        top: 5px;
+    left: 581px;
+    background: url(../../images/fund-tree2.svg);
+    width: 240px;
+    height: 192px;
+    padding-top: 31px;
+    padding-left: 21px;
+    .fundTree__block-subtitle {
+        margin-top: 21px;
+    }
+    }
+    .success{
+        
+    left: 1053px;
+    background: url(../../images/fund-tree5.svg);
+    padding-top: 52px;
+    padding-left: 21px;
+    top: 185px;
+    .fundTree__block-subtitle {
+        margin-top: 19px;
+    }
+    }
+    .ventures{
+        
+        left: 1397px;
+        background: url(../../images/fund-tree4.svg);
+        padding-top: 34px;
+        padding-left: 20px;
+        top: -211px;
+        height: 158px;
+    
+        .fundTree__block-subtitle {
+            margin-top: 10px;
+            color: black;
+            letter-spacing: 0.36px;
+            
+        }
+        .fundTree__block-title {
+         
+            color: black;
+        }
+        }
+    .grant{
+        
+        left: 1397px;
+        background: url(../../images/fund-tree3.svg);
+        padding-top: 40px;
+        padding-left: 24px;
+        height: 151px;
+        top: 297px;
+            .fundTree__block-subtitle {
+                margin-top: 4px;
+                color: black;
+                letter-spacing: -0.46px;
+        }
+        .fundTree__block-title {
+          
+            color: black;
+    }
+    }    
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('html/head.html', {
+    'title': 'Главная'
+  })
+  <body class="fund">
+    <div class="wrapper">
+      @@include('html/header.html')
+
+        @@include('html/main-token.html',{
+        
+            'word1':"Finity",
+            "word2":'Fund',
+            "imgUrl":'../images/fund-bg.png',
+            'subtitle':"The Finity Foundation is a fund that fuels the development of new active projects, as well as the possibility of discovering new fragments of the ecosystem.",
+            "btn-title":"Leave a request"
+            
+        })
+
+        <div class="blur"></div>
+        @@include('html/fund-blocks-token.html')
+        @@include('html/fund-tree.html')
+
+        @@include('html/questions-fund.html')
+        @@include('html/submitBlock.html')
+        @@include('html/footer.html')
+     
+    </div>
+
+  </body>
+</html>

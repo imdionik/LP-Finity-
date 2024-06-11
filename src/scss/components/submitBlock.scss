@@ -1,0 +1,138 @@
+.submitBlock{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 317px;
+
+   position: relative;
+
+    &__wrapper{
+        display: flex;
+        max-width: 1720px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+  
+
+    &__title{
+
+margin: 0;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+    }
+    &__text{
+        position: relative;
+    }
+    &__text::before{
+        content: '';
+        background: url('../../images/cornersvg.svg');
+        position: absolute;
+        width: 69px;
+        height: 69px;
+        right: -63px;
+        top: -54px;
+    }
+    &__text::after{
+        content: '';
+        background: url('../../images/cornersvg.svg');
+        transform: rotate(180deg);
+        
+        position: absolute;
+        width: 69px;
+        height: 69px;
+        left: -40px;
+        bottom: -49px;
+    }
+
+    .submit-blur{
+        /* Vector */
+
+position: absolute;
+width: 337px;
+height: 451px;
+right: -152px;
+    top: -687px;
+    z-index: -1;
+/* accent/4 */
+background: linear-gradient(148.71deg, #B2FF0F 10.47%, #76FFEF 88.29%);
+filter: blur(150px);
+transform: rotate(180deg);
+
+    }
+
+    &__buttons{
+        display: flex;
+        
+        margin-top: 93px;
+        margin-left: 51px;
+
+        .main__token-btn{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 33.0512px;
+line-height: 40px;
+filter: drop-shadow(2.36275px 2.36275px 23.6275px rgba(239, 57, 255, 0.5)); border-radius: 0px 67.6047px;
+
+width: 323px;
+/* main/white */
+color: #FFFFFF;
+margin-right: 31px;
+height: 83px;
+border-radius: 0px 60px;
+
+        }
+
+        .main__token-btn::before{
+            background: linear-gradient(103.59deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%); 
+            border-radius: 0px 60px;
+        }
+
+        .main__token-btn:last-child{
+            margin-right: 0;
+        }
+    }
+
+    &__socials{
+        display: flex;
+        margin-left: 81px;
+        margin-top: 106px;
+        padding: 0;
+        
+    }
+
+    &__social{
+        width: 51px;
+        height: 50px;
+       
+            margin-right: 86px;
+        
+        
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .tokens {
+        position: absolute;
+        left: -62px;
+        top: -217px;
+    }
+    .tokens-right {
+        position: absolute;
+        right: 0px;
+        top: -361px;
+    }
+
+   
+}

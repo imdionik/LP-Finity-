@@ -1,0 +1,112 @@
+.token__adress{
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 203px;
+    padding-bottom: 114px;
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
+&-wrapper{
+    display: flex;
+    max-width: 1720px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+    &-title{
+        
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 83px;
+color:#fff;
+        span{
+            /* FNT Token Address */
+
+
+background: linear-gradient(116.77deg, #FC84FF 3.43%, #54D1FA 38.39%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+        }
+        margin-bottom: 25px;
+    }
+
+    &-subtitle{
+
+margin: 0px;
+margin-left: -7px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 23px;
+color: #FFFFFF;
+margin-bottom: 72px;
+
+    }
+
+    &-text{
+       
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+margin: 22px 0px;
+
+    }
+
+    &-block{
+        max-width: 863px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-top: 11px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        border: 1px solid rgb(82, 82, 82);
+        border-radius: 50px;
+        box-sizing: border-box;
+     
+    }
+
+    &-btn{
+
+        text-align: end;
+        padding-right: 42px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+width: 190px;
+height: 100%;
+/* main/white */
+color: #FFFFFF;
+position: relative;
+height: 76px;
+background: linear-gradient(103.59deg, #FC84FF 13.23%, #54D1FA 91.95%);
+border-radius: 50px;
+margin-top: -4px;
+    }
+
+
+}
+
+.token__adress-btn::before{
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 30px;
+    background: url(../../images/copy.svg);
+    top: 24px;
+    left: 44px;
+}

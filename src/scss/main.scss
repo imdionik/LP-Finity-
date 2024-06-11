@@ -29,4 +29,315 @@
 @import "components/questions";
 @import "components/imageBlock";
 @import "components/form";
+@import "components/main-token";
+@import "components/block-token";
+@import "components/blocks-token";
+@import "components/tokenomic";
+@import "components/roadmap";
+
+.token{
+    .footer{
+        margin-top: 65px;
+        margin-left: 124px;
+       .header__left {
+            margin-top: -17px;
+            margin-left: -4px;
+        }
+    }
+    .footer .header__language {
+        margin-top: 5px;
+    }
+    .form__wrapper{
+        margin-top: 550px;
+        .tokens{
+            display: none;
+        }
+        .tokens-right {
+            position: absolute;
+            right: 0px;
+            top: -369px;
+        }
+    }
+    .contact-form{
+        position: relative;
+
+        img{
+            position: absolute;
+                top: 23px;
+        }
+    }
+
+
+}
+
+
+
+
+@import "components/token-adress";
+@import "components/fund-tree.scss";
+.fund{
+    .main__token-text {
+        max-width: 464px;
+    }
+
+    .main__token-titleLeft{
+        /* Finity */
+
+
+
+/* accent/4 */
+background: linear-gradient(148.71deg, #B2FF0F 10.47%, #76FFEF 88.29%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+    }
+    .main__token-titleRight{
+        /* Finity */
+        margin-left: 2px;
+
+
+/* accent/4 */
+background: linear-gradient(148.71deg, #B2FF0F 10.47%, #76FFEF 88.29%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+    }
+  
+    
+    .main__token-image{
+        img{
+            height: 908px;
+        }
+        
+        left: -15px;
+        top: -224px;
+    }
+    .block__token{
+        padding-bottom: 18px;
+    }
+    .main__token-btn::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 60px 0px;
+        padding: 3px;
+        background: linear-gradient(148.71deg, #B2FF0F 10.47%, #76FFEF 88.29%);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        pointer-events: none;
+    }
+    .block__token:nth-child(2) .block__token-subtitle {
+        max-width: 423px;
+        padding: 0;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 2px;
+        margin-left: -12px;
+        letter-spacing: -0.2px;
+        margin-top: 2px;
+        
+    }
+    .block__token:not(:first-child)  .block__token-image {
+        margin-bottom: 14px;
+        margin-top: 10px;
+    }
+    .block__token-subtitle {
+        max-width: 433px;
+        padding: 0;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0;
+        min-height: 95px;
+        letter-spacing: 0.1px;
+        margin-bottom: 1px;
+        margin-left: -14px;
+    }
+    .block__token-image {
+        margin-bottom: 21px;
+        margin-top: 16px;
+    }
+    .block__token::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 60px;
+        padding: 1px;
+        background: linear-gradient(148.71deg, #B2FF0F 10.47%, #76FFEF 88.29%);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        pointer-events: none;
+    }
+    .block__token {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 480px;
+        position: relative;
+        margin-right: 40px;
+        padding: 20px 0px;
+       
+        
+        width: 100%;
+background: #0D0D0D;
+box-shadow: 2px 2px 9px #169D00;
+border-radius: 60px;
+
+    }
+    .block__token:nth-child(3) .block__token-subtitle {
+        max-width: 436px;
+        padding: 0;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        letter-spacing: -0.72px;
+        margin-left: -9px;
+    }
+
+    .questions{
+        margin-top: 335px;
+    }
+    .questions__left h1 {
+        margin: 0;
+        padding: 0;
+        font-family: "Chakra Petch";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 78px;
+        text-align: center;
+        letter-spacing: 0.02em;
+     
+
+
+
+background: linear-gradient(148.71deg, #B2FF0F 10.47%, #76FFEF 88.29%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+    }
+    .questions__image {
+        margin-top: -18px;
+        margin-left: -60px;
+    }
+    .questions__block {
+        padding-left: 18px;
+        padding-bottom: 32px;
+        padding-top: 31px;
+    }
+    .questions__block:nth-child(3) {
+        padding-left: 18px;
+        padding-bottom: 26px;
+    
+    }
+    .questions__block:last-child{
+        padding-top: 33px;
+    }
+    .questions__block-text h3 {
+        letter-spacing: -0.15px
+    }
+    .questions__block-parag {
+        margin-left: -7px;
+        margin-top: 21px;
+    }
+    .questions__block::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 10px;
+        padding: 1px;
+        /* main/black */
+     
+        background: linear-gradient(148.71deg, #B2FF0F 10.47%, #76FFEF 88.29%);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        pointer-events: none;
+
+
+    }
+    .questions__block{
+        background: #0D0D0D;
+        box-shadow: 2px 2px 20px rgba(85, 255, 57, 0.5);
+        border-radius: 10px;
+    }
+    
+        .footer {
+            margin-left: 123px;
+            margin-right: 309px;
+            margin-top: 148px;
+            position: relative;
+            padding-bottom: 30px;
+        }
+    
+}
+.token .wrapper{
+    position: relative;
+    overflow: hidden;
+    .blur{
+        /* Vector */
+    
+    position: absolute;
+    width: 621px;
+    height: 833px;
+    right: -400px;
+    top: 19px;
+    z-index: 10;
+    /* accent/7 */
+    background: linear-gradient(103.59deg, #86AFFE 13.23%, #A57AFF 53.2%, #FB84FF 91.95%);
+    filter: blur(250px);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    
+    }
+}
+
+.fund{
+    .wrapper{
+        position: relative;
+        overflow: hidden;
+    }
+    .blur{
+       
+
+position: absolute;
+width: 621px;
+height: 833px;
+right: -600px;
+top: 200px;
+z-index: -1px;
+background: linear-gradient(148.71deg, #B2FF0F 10.47%, #76FFEF 88.29%);
+filter: blur(250px);
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+    }
+}
+
+@import "components/submitBlock";
+
+@import "components/market";
 @import "components/footer";
